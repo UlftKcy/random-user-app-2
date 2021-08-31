@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Card from "./components/Card";
-import cw from "./assets/cw.svg";
-import axios from "axios";
 import Button from "./components/Button";
 import AddUser from "./components/AddUser";
 import Loading from "./components/Loading";
+import cw from "./assets/cw.svg";
+import axios from "axios";
 const url = "https://randomuser.me/api/";
 
 function App() {
